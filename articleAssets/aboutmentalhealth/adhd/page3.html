@@ -4,25 +4,45 @@
 	<meta charset="utf-8">
 	<title></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200..1000&display=swap" rel="stylesheet">
 </head>
 <style>
   html * {
-    font-family: Arial, Helvetica, sans-serif !important;
+    font-family: "Mulish", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
   }
+
+	b {
+		font-weight: 700;
+	}
+
+	h1 {
+		font-size: 20px;
+	}
+
+	p + ul {
+		margin-top: -16px;
+	}
 </style>
 <body>
-  <div style="display: flex; gap: 10px; flex-direction: column;">
-		<p>The causes are not fully understood yet but studies have found increased risk for the following factors:</p>
+  <div style="display: flex; flex-direction: column; align-content: self; padding-left: 5%; padding-right: 5%;">
+		<p style="text-align: center;"><b>The causes are not fully understood yet but studies have found increased risk for the following factors:</b></p>
 
-		<div style="padding-left: 10px; padding-right: 10px; background-color: #f7c6fc; border-radius: 15px">
+		<div>
 			<p> 
 				<b>Genetics</b>
-				<br>
-				If one parent has ADHD, the child is 50% more likely to have ADHD as well, there is a higher probability if both parents have the condition
+				<ul>
+					<li>If one parent has ADHD, the child is 50% more likely to have ADHD as well, there is a higher probability if both parents have the condition</li>
+				</ul>
 			</p>
 		</div>
 
-		<div style="padding-left: 10px; padding-right: 10px; background-color: #f7c6fc; border-radius: 15px">
+		<div>
 			<p style="white-space: nowrap;"> 
 				<b>Prenatal and premature pregnancy factors</b>
 				<ul>
@@ -33,14 +53,16 @@
 			</p>
 		</div>
 
-		<div style="padding-left: 10px; padding-right: 10px; background-color: #f7c6fc; border-radius: 15px">
+		<div>
 			<p style="white-space: nowrap;"> 
 				<b>Medical Conditions</b>
-				<ol type="a">
+				<ul>
 					<li>Brain injuries such as stroke, concussions and brain tumour</li>
-				</ol>
+				</ul>
 			</p>
 		</div>
+
+		<img style="width: 70%; align-self: center" src="../../assets/articleAssets/aboutmentalhealth/adhd/page3-image1.png">
 	</div>
 </body>
 </html>
