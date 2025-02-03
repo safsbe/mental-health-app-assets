@@ -4,21 +4,41 @@
 	<meta charset="utf-8">
 	<title></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200..1000&display=swap" rel="stylesheet">
 </head>
 <style>
   html * {
-    font-family: Arial, Helvetica, sans-serif !important;
+    font-family: "Mulish", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
   }
+
+	b {
+		font-weight: 700;
+	}
+
+	p + ul {
+		margin-top: -16px;
+	}
+
+	h1 {
+		font-size: 20px;
+	}
 </style>
 <body>
-	<div style="display: flex; gap: 20px">
-		<div style="flex: 6">
-			<h2>WHAT IS IT</h2>
+  <div style="display: flex; flex-direction: column; align-self: center; padding-left: 5%; padding-right: 5%;">
+		<h1 style="text-align: center;"><b>WHAT IS IT?</b></h1>
 
-			<p>Attachment theory was first developed by John Bowlby (1907-1990), a British psychoanalyst who wanted to understand the intense distress experienced by infants when separated from their parents.</p>
-			<p>Bowlby observed that these infants often engaged in extreme behaviors — such as crying, clinging, or desperately searching — to avoid separation or to regain proximity to a missing parent.</p>
-		</div> 
-		<img style="flex: 1; margin-top: 20px" width="35%" src="../../assets/articleAssets/aboutself/attachmentstyle/page2-image1.png">
+		<p>Attachment theory was first developed by John Bowlby (1907-1990), a British psychoanalyst who wanted to understand the intense distress experienced by infants when separated from their parents.</p>
+
+		<p>Bowlby observed that these infants often engaged in extreme behaviors — such as crying, clinging, or desperately searching — to avoid separation or to regain proximity to a missing parent.</p>
+
+		<br>
+		<img style="width: 80%; object-fit: contain; align-self: center;" src="../../assets/articleAssets/aboutself/attachmentstyle/page2-image1.png">
 	</div>
 </body>
 </html>
