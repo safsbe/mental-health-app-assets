@@ -4,21 +4,42 @@
 	<meta charset="utf-8">
 	<title></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200..1000&display=swap" rel="stylesheet">
 </head>
 <style>
   html * {
-    font-family: Arial, Helvetica, sans-serif !important;
+    font-family: "Mulish", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
   }
+
+	b {
+		font-weight: 700;
+	}
+
+	p + ul {
+		margin-top: -16px;
+	}
+
+	h1 {
+		font-size: 20px;
+	}
 </style>
 <body>
-	<div style="display: flex">
+  <div style="display: flex; flex-direction: column; align-self: center; padding-left: 5%; padding-right: 5%;">
 		<div style="flex: 6">
-			<h2>WHAT IS IT</h2>
+			<h1 style="text-align: center;"><b>WHAT IS IT?<b></h1>
 
 			<p>Stress is your body’s natural reaction to any demand that disrupts your usual routine. A little bit of stress <b>(eustress)</b> can be useful, like when it helps you overcome a fear or gives you extra energy to finish a task.</p>
 			<p>However, there’s also harmful stress <b>(distress)</b>, which comes from intensive or prolonged worries about things like money, jobs, relationships, or health. Just like a “check engine” light in your car, if you ignore these signals, you might face bigger problems in the future.</p>
 		</div> 
-		<img style="flex: 1" width="35%" src="../../assets/articleAssets/aboutself/distresssigns/page2-image1.png">
+		<div style="display: flex; flex-direction: column;">
+			<img style="display: flex; width: 60%; object-fit: contain; align-self: flex-end;" src="../../assets/articleAssets/aboutself/distresssigns/page2-image1.png">
+		</div>
 	</div>
 </body>
 </html>
